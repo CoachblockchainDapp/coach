@@ -1,0 +1,10 @@
+export const name='Coach Blockchain';
+export const price=0.17
+export const nameT='COLECCIÓN TERRA NFT'
+export const nameA='COLECCIÓN AQUA NFT'
+export const nameE='COLECCIÓN EAR NFT'
+export const nameG='GENESIS'
+export const unete='Únete'
+export const creado='Creado Por:'
+export const costo='Costo'
+export const LogoA='"/assets/images/avatar/AQUA.png"'

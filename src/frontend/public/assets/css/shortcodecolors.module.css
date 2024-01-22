@@ -1,0 +1,63 @@
+:root {
+
+
+
+
+
+  /**Shortcode colors*/
+  --short-azul-claro:#e9c165; /* COlor de los botones de unete*/
+  --short-gris-negro:#000000; /*Color de las letras de los botones descubre mas, todas las coleciones y wallet conet*/
+  --short-amarillo:#CFA647;/*Color de los botoenes de arriba*/
+  --short-gris-intenso:#0b5568; /*Color de las cartas*/
+  --short-gris-matiz:#ffffff; /*Color de las cartas*/
+  --short-blanco1:#e91010;
+  --short-negro1:#0b5568;
+
+  --gris-intenso:#919191;
+  --gris-oscuro:#000000;
+  --gris-rgba:rgb(255, 255, 255);
+
+  --negro-claro:#ffffff; /*Cartas Giratorias*/
+
+  --color-step1-top: #FDCF00;
+  --color-step1-bottom: #FD9601;
+
+  --color-step2-top: #E5F203;
+  --color-step2-bottom: #5B8500;
+
+  --color-step3-top: #EA66E2;
+  --color-step3-bottom: #3E4FE7;
+
+  --color-step4-top: #FFEB00;
+  --color-step4-bottom: #2DC41A;
+
+  --color-background: #1b1b1b; /*Button*/
+  --color-background1: #74f0d5; /*Fondo inteneto*/
+  --color-background2: #000000;
+
+  
+  --color-background3: rgb(255, 255, 255); 
+  --color-background4:#CFA647;  /* Nuevo color de fondo con alfa  para banners*/
+  --color-custom-background2: #3C3C56; /* Nuevo color de fondo */
+  --color-shadow: #2F536D1F;
+  --color-shadow2: rgba(0, 0, 0, 0.40); /* Nuevo color de sombra */
+  --color-border: #3A3A3A;
+  --color-custom-background: #2E2E2E;
+  --color-custom-background3: #343444; /* Nuevo color de fondo */
+
+  --color-border-right: rgba(217, 217, 217, 0.1); /* Nuevo color de borde derecho */
+  --color-border-left: rgba(255, 255, 255, 0.1); /* Nuevo color de borde izquierdo */
+
+  --short-negro-transparente-100:rgb(0, 0, 0); /*Color de los botones en los banner activos*/
+  --short-negro-transparente-30:rgb(0, 0, 0);
+  --short-negro-transparente-00:rgb(0, 0, 0);
+  --color-custom-background-10: rgba(0, 0, 0, 0.1);
+
+  --color-border2: rgba(255, 255, 255, 0.12);
+
+  --color-gradient-start: rgba(255, 235, 0, 1); /* Color inicial del degradado */
+  --color-gradient-end: rgba(45, 196, 26, 1); /* Color final del degradado */
+
+  --blanco:#ffffff;
+
+}

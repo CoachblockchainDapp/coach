@@ -1,0 +1,51 @@
+.swiper {
+  display: flex;
+  flex-direction: row; /* Cambia a un diseño en filas */
+  justify-content: center; /* Centra horizontalmente las diapositivas */
+  overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+}
+
+/* Estilos para cada diapositiva */
+.swiper-slide {
+  flex: 0 0 auto; /* Evita que las diapositivas cambien de tamaño */
+  width: 80%; /* Ancho del 80% del contenedor */
+  max-width: 300px; /* Ancho máximo de cada diapositiva */
+  margin: 0 5px; /* Espacio entre diapositivas */
+  position: relative; /* Permite el posicionamiento relativo */
+  z-index: 1; /* Coloca la diapositiva en el primer plano */
+  transition: transform 0.3s; /* Añade transición para suavizar el cambio */
+}
+
+  
+/* Ajuste para diapositiva central */
+.swiper-slide:nth-child(4) {
+  transform: translateX(-250px) scale(1); /* Aumenta el tamaño de la diapositiva central */
+  z-index: 2; /* Coloca la diapositiva central al frente */
+}
+
+/* Ajuste para diapositivas a los lados */
+
+.swiper-slide:nth-child(5) {
+  transform: translateX(-300px) scale(0.9); /* Mueve las diapositivas hacia los lados */
+  z-index: 1; /* Coloca las diapositivas a los lados detrás */
+}
+/* Ajuste para diapositivas a los lados */
+
+.swiper-slide:nth-child(3) {
+  transform: translateX(-200px) scale(0.9); /* Mueve las diapositivas hacia los lados */
+  z-index: 1; /* Coloca las diapositivas a los lados detrás */
+}
+
+/* Ajuste para diapositivas a los lados */
+
+.swiper-slide:nth-child(2) {
+  transform: translateX(-100px) scale(0.7); /* Mueve las diapositivas hacia los lados */
+  z-index: 1; /* Coloca las diapositivas a los lados detrás */
+}
+
+/* Ajuste para diapositivas a los lados */
+
+.swiper-slide:nth-child(1) {
+  transform: translateX(1100px) scale(0.6); /* Mueve las diapositivas hacia los lados */
+  z-index: 1; /* Coloca las diapositivas a los lados detrás */
+}

@@ -1,0 +1,23 @@
+/* ProductCard.module.css */
+.productCard {
+    /* Ajusta el tamaño general de la tarjeta */
+    /* Puedes cambiar estos valores según tus necesidades */
+    width: 100%;
+    max-width: 500px; /* Cambia el ancho máximo de la tarjeta */
+  
+    /* Agrega más estilos según sea necesario */
+  }
+  
+  .cardMedia {
+    /* Ajusta el tamaño de la imagen */
+    /* Puedes cambiar estos valores según tus necesidades */
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+  }
+  
+  .cardImage {
+    /* Ajusta el tamaño de la imagen */
+    /* Puedes cambiar estos valores según tus necesidades */
+    width: 100%; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  

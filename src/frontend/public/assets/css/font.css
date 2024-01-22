@@ -1,0 +1,11 @@
+/* fonts.css */
+
+:root {
+    --font-primary: 'Arial', 'Universe', sans-serif;
+    --font-secondary: 'Roboto', sans-serif; /* Puedes agregar más fuentes según sea necesario */
+    --font-inherit   : inherit;
+    --font-manrope   : 'Manrope', sans-serif;
+    --font-icomoon: 'icomoon' ;
+    --font-azeret: 'Azeret Mono';
+    --font-poppins: 'Poppins';
+  }
